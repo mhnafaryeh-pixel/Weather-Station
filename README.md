@@ -32,6 +32,23 @@ DHT22 quirks.It needs its pull-up resistor refuses to be read more than once eve
 seconds and fails occasionally because Wi-Fi interrupts disturb its microsecond timing. A
 failed read is normal retry rather than treating it as a fault.
 
+please install below libraries on Arduino IDE:
+
+-DHT sensor library
+-Adafruit Unified Sensor
+-Adafruit BMP280 Library
+-Adafruit BusIO
+-PubSubClient
+
+The sources I used:
+
+https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf
+https://github.com/adafruit/DHT-sensor-library
+https://randomnerdtutorials.com/esp32-bme280-arduino-ide-pressure-temperature-humidity/
+https://randomnerdtutorials.com/esp32-dht11-dht22-temperature-humidity-web-server-arduino-ide/
+https://files.seeedstudio.com/wiki/Grove-Temperature_and_Humidity_Sensor_Pro/res/AM2302-EN.pdf
+https://www.udemy.com/share/101qsS3@Q2qkrKLU2z8FoGoNJBLXRvPLwxavCcKUQkTMAiFg9VhIU5g_uzgzTMCO5Uuq6bw7_g==/
+https://www.udemy.com/share/105u0c3@ZHcaXOoWYgGNj3y-nRQCJK6SQSmedb4Ki3_wT_AAL3o5v7HKA4X9sUk4FtT2jHnDtg==/
 
 
 
