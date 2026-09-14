@@ -12,14 +12,6 @@ According to the code the ESP32 collects the data from the sensors, calculates t
 - BMP280 on an HW-611 breakout — pressure and temperature
 - One 5.1 kΩ resistor
 
-## Circuit Schema In Kicad
-
-<img width="1337" height="773" alt="Screenshot_20260914_210445" src="https://github.com/user-attachments/assets/4ae234dd-87ba-4fb1-8ddc-d3d95d37e906" />
-<img width="1442" height="808" alt="Screenshot_20260914_210343" src="https://github.com/user-attachments/assets/6746281f-7911-41fe-bba7-92ac7730b51d" />
-
-
-
-
 ## Notes:
 
 The callback only raises a flag. `onMessage()` sets `requestPending = true` and returns.
@@ -58,6 +50,7 @@ https://files.seeedstudio.com/wiki/Grove-Temperature_and_Humidity_Sensor_Pro/res
 https://www.udemy.com/share/101qsS3@Q2qkrKLU2z8FoGoNJBLXRvPLwxavCcKUQkTMAiFg9VhIU5g_uzgzTMCO5Uuq6bw7_g==/
 https://www.udemy.com/share/105u0c3@ZHcaXOoWYgGNj3y-nRQCJK6SQSmedb4Ki3_wT_AAL3o5v7HKA4X9sUk4FtT2jHnDtg==/
 
+## Project Images:
 <img width="2368" height="2560" alt="image" src="https://github.com/user-attachments/assets/2ea4b7f7-5450-4d68-a246-58645ec13315" />
 <img width="591" height="1280" alt="image" src="https://github.com/user-attachments/assets/e940b2ef-4328-40f5-9633-161a1e1262e0" /> 
 <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/e3438e92-bf9c-4aba-a8e8-788d81d229cb" />
